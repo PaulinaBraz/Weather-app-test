@@ -4,11 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Weather-app</title>
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <h1>Hello git!</h1>
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="wheather-app">
+      <h1> <span class="today" id="today">Friday 12:53</span><span class="sun"> &#127774;</span><div class="city"> Lisbon </div>
+
+        </h1>
+        <h2> <span id=temp>24</span>°C
+  </h2>
+  <div class="row">
+      <div class="col">Monday <div class="sunshine">&#127774 <br> 25°</div>
+      </div>
+      <div class="col">Tuesday <div class="sunshineone"> &#127774 <br> 23°</div> </div>
+      <div class="col">Wednesday <div class="sunshinetwo">&#127774 <br> 21°</div> </div>
+      <div class="col">Thursday <div class="sunshinethree">&#127774 <br> 22°</div> </div>
+      <div class="col">Friday <div class="sunshinefour">&#127774  <br> 24°</div> </div>
+    </div>
+    <br>
+        <form class="weather-search-form">
+            <div class="row">
+              <div class="col-9">
+            <input type="search" placeholder="Type a city..." autofocus="on" id="search-city"
+            class="form-control"/> </div>
+            <div class="col-3">
+            <input type="submit" value="Search" class="form-control btn btn-primary shadow"/></div>
+            </div> 
+          </form>
+    <script src="src/index.js"></script>
+    </div>
+    </div>
   </body>
 </html>
+
