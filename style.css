@@ -16,6 +16,10 @@ h2 {
 form {
   text-align: center;
 }
+footer {
+  text-align: left;
+  margin-left: 130px;
+}
 .sun {
   display: block;
   text-align: right;
@@ -58,8 +62,4 @@ form {
 }
 .weather-search-form {
   margin-bottom: 20px;
-}
-.learn-more {
-  text-align: right;
-  margin-left: 30px;
 }
